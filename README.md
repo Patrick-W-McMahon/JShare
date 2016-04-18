@@ -1,7 +1,7 @@
 # JShare
 JQuery Plugin for Social Media share buttons
 
-start it with:
+in your javascript:
 ```
   $( document ).ready(function(){
 	$(".social_icons").JShare({
