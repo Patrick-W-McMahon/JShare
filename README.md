@@ -9,7 +9,7 @@ in your javascript:
 	});
   });
 ```
-Then in the body of your page add:
+In the body of your page:
 ```
   <div class="social_icons">
 		<a data-share="facebook">facebook</a>
