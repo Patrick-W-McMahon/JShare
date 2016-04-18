@@ -50,7 +50,7 @@
 						PopupCenterDual(url,(shareType.slice(0,1).toUpperCase() + shareType.slice(1)),self.options.windowWidth,self.options.windowHeight);
 					break;
 					case "email":
-						$(this).attr("href","mailto:?subject="+document.title+"&body="+escape(window.location.href));
+						$(this).attr("href","mailto:?subject="+valArr.msg+"&body="+escape(window.location.href));
 					break;
 				}
 			});
