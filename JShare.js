@@ -5,7 +5,7 @@
 	var defaults={
 		windowWidth:600,
 		windowHeight:450,
-		message:""
+		message:document.title,
 	};
 	var urlPaths={
 			facebook:"http://www.facebook.com/sharer/sharer.php?sdk=joey&amp;u={pageUrl}&amp;display=popup&amp;ref=plugin&amp;src=share_button",
@@ -13,7 +13,7 @@
 	};
 	var valArr={
 		pageUrl:pageUrl,
-		msg:"",
+		msg:document.title,
 	}
 	
 	$.fn[pluginName]=function(options){
