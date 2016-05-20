@@ -8,8 +8,8 @@
 		message:document.title,
 	};
 	var urlPaths={
-			facebook:"http://www.facebook.com/sharer/sharer.php?sdk=joey&amp;u={pageUrl}&amp;display=popup&amp;ref=plugin&amp;src=share_button",
-			twitter:"https://twitter.com/intent/tweet?original_referer={pageUrl}&amp;ref_src=twsrc%5Etfw&amp;text={msg}&amp;tw_p=tweetbutton&amp;url={pageUrl}",
+		facebook:"http://www.facebook.com/sharer/sharer.php?sdk=joey&amp;u={pageUrl}&amp;display=popup&amp;ref=plugin&amp;src=share_button",
+		twitter:"https://twitter.com/intent/tweet?original_referer={pageUrl}&amp;ref_src=twsrc%5Etfw&amp;text={msg}&amp;tw_p=tweetbutton&amp;url={pageUrl}",
 	};
 	var valArr={
 		pageUrl:pageUrl,
